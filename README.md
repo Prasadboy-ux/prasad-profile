@@ -79,26 +79,20 @@ I am focused on building dependable quality systems that integrate statistical p
 ## GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Prasadboy-ux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=Prasadboy-ux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img height="165" src="https://streak-stats.demolab.com/?user=Prasadboy-ux&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prasadboy-ux&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-## Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Prasadboy-ux&theme=tokyonight&no-frame=true&column=7&margin-w=10" alt="GitHub Trophies" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Prasadboy-ux&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 ## Contribution Snake
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/Prasadboy-ux/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/Prasadboy-ux/output/github-contribution-grid-snake.svg" />
-    <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/Prasadboy-ux/Prasadboy-ux/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/prasad-profile/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/prasad-profile/output/github-contribution-grid-snake.svg" />
+    <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/Prasadboy-ux/prasad-profile/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 

@@ -8,12 +8,20 @@ on:
     branches:
       - main
 
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate contribution snake SVGs
         uses: Platane/snk@v3
         with:

@@ -86,6 +86,12 @@ I am focused on building dependable quality systems that integrate statistical p
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prasadboy-ux&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
+## Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Prasadboy-ux&theme=tokyonight&no-frame=true&column=7&margin-w=10" alt="GitHub Trophies" />
+</p>
+
 ## Contribution Snake
 
 <p align="center">

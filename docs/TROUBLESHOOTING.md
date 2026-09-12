@@ -36,3 +36,22 @@ Confirm `activity.enabled` is `true`, enable Actions for the repository, and run
 ## `npm install` fails
 
 Check `node --version`. This project requires Node.js 20 or newer. Delete `node_modules`, keep `package-lock.json`, and retry `npm ci` or `npm install`.
+
+## Analytics do not appear in README
+
+Run `npm run generate:analytics` locally to create `assets/analytics/analytics.json`, then run `npm run generate:readme` to inject the analytics into README.md.
+
+## GitHub Actions analytics workflow fails
+
+Check the Actions log for:
+- API rate limits: unauthenticated requests are limited to 60 per hour. Use `GITHUB_TOKEN` for 5,000 per hour.
+- Missing `GITHUB_TOKEN`: the workflow must have `contents: write` permission.
+- Repository visibility: only public data is fetched.
+
+## Analytics show zero commits for a repository
+
+The commit count is fetched using the GitHub Commits API. Very large repositories may take longer to fetch. The system fetches commit counts in batches and falls back gracefully if a single repository fails.
+
+## Analytics are stale
+
+Analytics are cached for 30 minutes in `assets/analytics/cache.json`. To force a refresh, delete the cache file and rerun `npm run generate:analytics`.

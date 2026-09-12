@@ -1,0 +1,477 @@
+{
+  "profileOverview": {
+    "publicRepos": 5,
+    "totalStars": 1,
+    "totalForks": 0,
+    "totalCommits": 19,
+    "followers": 1,
+    "following": 1
+  },
+  "topLanguagesByRepo": [
+    {
+      "language": "JavaScript",
+      "count": 3,
+      "percentage": 60
+    },
+    {
+      "language": "Python",
+      "count": 2,
+      "percentage": 40
+    }
+  ],
+  "topLanguagesByCommit": [
+    {
+      "language": "JavaScript",
+      "commits": 14,
+      "percentage": 73.68
+    },
+    {
+      "language": "Python",
+      "commits": 5,
+      "percentage": 26.32
+    }
+  ],
+  "mostStarred": [
+    {
+      "name": "Blur-Theme",
+      "fullName": "Prasadboy-ux/Blur-Theme",
+      "url": "https://github.com/Prasadboy-ux/Blur-Theme",
+      "description": "A Python cinematic photo editor that transforms photos with music-inspired blur, dreamy effects, glow, and cinematic themes.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "isArchived": false,
+      "isFork": false,
+      "updatedAt": "2026-09-10T03:16:38.000Z",
+      "createdAt": "2026-08-30T12:58:34.000Z",
+      "defaultBranch": "main",
+      "size": 10134
+    }
+  ],
+  "repositories": [
+    {
+      "name": "image-slider",
+      "fullName": "Prasadboy-ux/image-slider",
+      "url": "https://github.com/Prasadboy-ux/image-slider",
+      "description": "A responsive image slider built with HTML, CSS, and Vanilla JavaScript.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "isArchived": false,
+      "isFork": false,
+      "updatedAt": "2026-09-12T07:37:04.000Z",
+      "createdAt": "2026-09-12T06:46:34.000Z",
+      "defaultBranch": "main",
+      "size": 392
+    },
+    {
+      "name": "task-owner-dashboard",
+      "fullName": "Prasadboy-ux/task-owner-dashboard",
+      "url": "https://github.com/Prasadboy-ux/task-owner-dashboard",
+      "description": "A simple and interactive task management system for assigning, tracking, and managing responsibilities.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "isArchived": false,
+      "isFork": false,
+      "updatedAt": "2026-09-12T06:34:04.000Z",
+      "createdAt": "2026-09-12T05:26:48.000Z",
+      "defaultBranch": "main",
+      "size": 14
+    },
+    {
+      "name": "Blur-Theme",
+      "fullName": "Prasadboy-ux/Blur-Theme",
+      "url": "https://github.com/Prasadboy-ux/Blur-Theme",
+      "description": "A Python cinematic photo editor that transforms photos with music-inspired blur, dreamy effects, glow, and cinematic themes.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "isArchived": false,
+      "isFork": false,
+      "updatedAt": "2026-09-10T03:16:38.000Z",
+      "createdAt": "2026-08-30T12:58:34.000Z",
+      "defaultBranch": "main",
+      "size": 10134
+    },
+    {
+      "name": "Prasadboy-ux",
+      "fullName": "Prasadboy-ux/Prasadboy-ux",
+      "url": "https://github.com/Prasadboy-ux/Prasadboy-ux",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "isArchived": false,
+      "isFork": false,
+      "updatedAt": "2026-09-09T06:03:44.000Z",
+      "createdAt": "2026-07-21T12:03:45.000Z",
+      "defaultBranch": "main",
+      "size": 67
+    },
+    {
+      "name": "rollmaster-cli",
+      "fullName": "Prasadboy-ux/rollmaster-cli",
+      "url": "https://github.com/Prasadboy-ux/rollmaster-cli",
+      "description": "Multiplayer terminal dice game demonstrating Python OOP, MVC architecture, JSON persistence, error handling, and automated testing.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "isArchived": false,
+      "isFork": false,
+      "updatedAt": "2026-08-30T12:37:04.000Z",
+      "createdAt": "2026-08-30T12:11:26.000Z",
+      "defaultBranch": "main",
+      "size": 26
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": "20886825577",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1367035856,
+        "name": "Prasadboy-ux/image-slider",
+        "url": "https://api.github.com/repos/Prasadboy-ux/image-slider"
+      },
+      "payload": {
+        "repository_id": 1367035856,
+        "push_id": 43370023945,
+        "ref": "refs/heads/main",
+        "head": "dec26ed455eaae12cfb484e5e941917304124242",
+        "before": "2ba701f5a2ca3d84fbbf8d5731eceed33bb4939a"
+      },
+      "public": true,
+      "created_at": "2026-09-12T07:37:01Z"
+    },
+    {
+      "id": "20883226777",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1367035856,
+        "name": "Prasadboy-ux/image-slider",
+        "url": "https://api.github.com/repos/Prasadboy-ux/image-slider"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "A responsive image slider built with HTML, CSS, and Vanilla JavaScript.",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-09-12T06:46:35Z"
+    },
+    {
+      "id": "19612603361",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1351398948,
+        "name": "Prasadboy-ux/Blur-Theme",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Blur-Theme"
+      },
+      "payload": {
+        "repository_id": 1351398948,
+        "push_id": 41971173896,
+        "ref": "refs/heads/main",
+        "head": "7ebae3634d3fdc68b2da9a551b6171bc4146fb5c",
+        "before": "7167fb77567b9c2c059da06b5433fcfdf92de1b0"
+      },
+      "public": true,
+      "created_at": "2026-08-31T16:09:59Z"
+    },
+    {
+      "id": "19561141877",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1351398948,
+        "name": "Prasadboy-ux/Blur-Theme",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Blur-Theme"
+      },
+      "payload": {
+        "repository_id": 1351398948,
+        "push_id": 41970922889,
+        "ref": "refs/heads/main",
+        "head": "7167fb77567b9c2c059da06b5433fcfdf92de1b0",
+        "before": "e527293bcf968b68c4e75b87c63ee46e8ee7913d"
+      },
+      "public": true,
+      "created_at": "2026-08-31T16:07:51Z"
+    },
+    {
+      "id": "19560718840",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1351398948,
+        "name": "Prasadboy-ux/Blur-Theme",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Blur-Theme"
+      },
+      "payload": {
+        "repository_id": 1351398948,
+        "push_id": 41971341945,
+        "ref": "refs/heads/main",
+        "head": "ba4430314933b753302414ddd3132334f12a58ee",
+        "before": "7ebae3634d3fdc68b2da9a551b6171bc4146fb5c"
+      },
+      "public": true,
+      "created_at": "2026-08-31T16:11:26Z"
+    },
+    {
+      "id": "19453697025",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1351367252,
+        "name": "Prasadboy-ux/rollmaster-cli",
+        "url": "https://api.github.com/repos/Prasadboy-ux/rollmaster-cli"
+      },
+      "payload": {
+        "repository_id": 1351367252,
+        "push_id": 41820506345,
+        "ref": "refs/heads/main",
+        "head": "c049d78211e2565f2fd1fbbbf45dd1ad494a036d",
+        "before": "92a97f79f355a9fa34bec29ffd209e60d214dff2"
+      },
+      "public": true,
+      "created_at": "2026-08-30T12:29:52Z"
+    },
+    {
+      "id": "19452848261",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1351367252,
+        "name": "Prasadboy-ux/rollmaster-cli",
+        "url": "https://api.github.com/repos/Prasadboy-ux/rollmaster-cli"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "Multiplayer terminal dice game demonstrating Python OOP, MVC architecture, JSON persistence, error handling, and automated testing.",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-30T12:14:52Z"
+    },
+    {
+      "id": "19424404262",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1351398948,
+        "name": "Prasadboy-ux/Blur-Theme",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Blur-Theme"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "A Python cinematic photo editor that transforms photos with music-inspired blur, dreamy effects, glow, and cinematic themes.",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-08-30T12:58:35Z"
+    },
+    {
+      "id": "18793559398",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1307656026,
+        "name": "Prasadboy-ux/Prasadboy-ux",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Prasadboy-ux"
+      },
+      "payload": {
+        "repository_id": 1307656026,
+        "push_id": 41116923713,
+        "ref": "refs/heads/main",
+        "head": "2fd92acaeb002cb73c77124b3851d46a74656205",
+        "before": "7b5ec34e257197237c6021e43cf76ccb0fb1c51b"
+      },
+      "public": true,
+      "created_at": "2026-08-25T02:44:15Z"
+    },
+    {
+      "id": "18792439571",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1307656026,
+        "name": "Prasadboy-ux/Prasadboy-ux",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Prasadboy-ux"
+      },
+      "payload": {
+        "repository_id": 1307656026,
+        "push_id": 41116367433,
+        "ref": "refs/heads/main",
+        "head": "54b3515f1bf0d1cbcb289548e3ec77e3b64f8adb",
+        "before": "c9679d04eb9537e96a1b3d5049a97d952b388d1c"
+      },
+      "public": true,
+      "created_at": "2026-08-25T02:34:54Z"
+    },
+    {
+      "id": "18784350707",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1307656026,
+        "name": "Prasadboy-ux/Prasadboy-ux",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Prasadboy-ux"
+      },
+      "payload": {
+        "repository_id": 1307656026,
+        "push_id": 41116661042,
+        "ref": "refs/heads/main",
+        "head": "7b5ec34e257197237c6021e43cf76ccb0fb1c51b",
+        "before": "54b3515f1bf0d1cbcb289548e3ec77e3b64f8adb"
+      },
+      "public": true,
+      "created_at": "2026-08-25T02:39:52Z"
+    },
+    {
+      "id": "18781309109",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1307656026,
+        "name": "Prasadboy-ux/Prasadboy-ux",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Prasadboy-ux"
+      },
+      "payload": {
+        "repository_id": 1307656026,
+        "push_id": 41113968104,
+        "ref": "refs/heads/main",
+        "head": "c9679d04eb9537e96a1b3d5049a97d952b388d1c",
+        "before": "2f614a1362f6489ad17d9af63f9adf010d3c3532"
+      },
+      "public": true,
+      "created_at": "2026-08-25T01:56:31Z"
+    },
+    {
+      "id": "18781050734",
+      "type": "PushEvent",
+      "actor": {
+        "id": 211185093,
+        "login": "Prasadboy-ux",
+        "display_login": "Prasadboy-ux",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Prasadboy-ux",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211185093?"
+      },
+      "repo": {
+        "id": 1307656026,
+        "name": "Prasadboy-ux/Prasadboy-ux",
+        "url": "https://api.github.com/repos/Prasadboy-ux/Prasadboy-ux"
+      },
+      "payload": {
+        "repository_id": 1307656026,
+        "push_id": 41113741855,
+        "ref": "refs/heads/main",
+        "head": "2f614a1362f6489ad17d9af63f9adf010d3c3532",
+        "before": "e7314ddb84172e9077c380b3284606c017501114"
+      },
+      "public": true,
+      "created_at": "2026-08-25T01:52:45Z"
+    }
+  ]
+}

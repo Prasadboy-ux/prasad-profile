@@ -3,6 +3,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { loadConfig, repositoryRoot } from "./lib/config.mjs";
+import { createGitHubClient } from "./lib/github-api.mjs";
 import { ACTIVITY_END, ACTIVITY_START } from "./lib/readme.mjs";
 
 const dryRun = process.argv.includes("--dry-run");
@@ -23,7 +24,15 @@ function eventToLine(event) {
     return `- ${date}: pushed ${commits} ${commits === 1 ? "commit" : "commits"} to [${repo}](${repoLink}).`;
   }
   if (event.type === "CreateEvent") {
-    return `- ${date}: created a ${event.payload?.ref_type || "resource"} in [${repo}](${repoLink}).`;
+    const refType = event.payload?.ref_type || "resource";
+    const ref = event.payload?.ref || "";
+    if (refType === "branch" && ref) {
+      return `- ${date}: created branch \`${ref}\` in [${repo}](${repoLink}).`;
+    }
+    if (refType === "repository") {
+      return `- ${date}: created repository [${repo}](${repoLink}).`;
+    }
+    return `- ${date}: created a ${refType}${ref ? ` \`${ref}\`` : ""} in [${repo}](${repoLink}).`;
   }
   if (event.type === "PullRequestEvent") {
     const action = event.payload?.action || "updated";
@@ -37,6 +46,29 @@ function eventToLine(event) {
     const url = event.payload?.issue?.html_url || repoLink;
     return `- ${date}: ${action} issue${number ? ` [#${number}](${url})` : ""} in [${repo}](${repoLink}).`;
   }
+  if (event.type === "IssueCommentEvent") {
+    const action = event.payload?.action || "updated";
+    const number = event.payload?.issue?.number;
+    const url = event.payload?.issue?.html_url || repoLink;
+    return `- ${date}: ${action} comment on issue${number ? ` [#${number}](${url})` : ""} in [${repo}](${repoLink}).`;
+  }
+  if (event.type === "ReleaseEvent") {
+    const action = event.payload?.action || "published";
+    const tag = event.payload?.release?.tag_name || "";
+    return `- ${date}: ${action} release${tag ? ` \`${tag}\`` : ""} in [${repo}](${repoLink}).`;
+  }
+  if (event.type === "WatchEvent") {
+    return `- ${date}: starred [${repo}](${repoLink}).`;
+  }
+  if (event.type === "ForkEvent") {
+    const forked = event.payload?.forkee?.full_name || repo;
+    return `- ${date}: forked [${forked}](${repoLink}).`;
+  }
+  if (event.type === "MemberEvent") {
+    const action = event.payload?.action || "updated";
+    const member = event.payload?.member?.login || "member";
+    return `- ${date}: ${action} member \`${member}\` in [${repo}](${repoLink}).`;
+  }
   return null;
 }
 
@@ -49,20 +81,22 @@ function replaceActivity(readme, content) {
   return `${readme.slice(0, startIndex + ACTIVITY_START.length)}\n${content}\n${readme.slice(endIndex)}`;
 }
 
-try {
+async function main() {
   const config = await loadConfig();
   if (!config.activity.enabled) {
     console.log("Recent activity is disabled in profile.config.json.");
     process.exit(0);
   }
 
-  const headers = { Accept: "application/vnd.github+json", "User-Agent": `${config.profile.username}-profile-readme` };
-  if (token) headers.Authorization = `Bearer ${token}`;
-  const response = await fetch(`https://api.github.com/users/${config.profile.username}/events/public?per_page=50`, { headers });
-  if (!response.ok) throw new Error(`GitHub API returned ${response.status} ${response.statusText}.`);
+  const client = createGitHubClient({ token, username: config.profile.username });
+  const events = await client.getUserEvents(50);
 
-  const events = await response.json();
-  const lines = events.map(eventToLine).filter(Boolean).filter((line, index, all) => all.indexOf(line) === index).slice(0, config.activity.limit);
+  const lines = events
+    .map(eventToLine)
+    .filter(Boolean)
+    .filter((line, index, all) => all.indexOf(line) === index)
+    .slice(0, config.activity.limit);
+
   const content = lines.length ? lines.join("\n") : "_No recent public activity was found._";
   const readmePath = resolve(repositoryRoot, "README.md");
   const readme = await readFile(readmePath, "utf8");
@@ -75,6 +109,10 @@ try {
     await writeFile(readmePath, nextReadme);
     console.log("README.md activity block updated.");
   }
+}
+
+try {
+  await main();
 } catch (error) {
   console.error(error.message);
   process.exitCode = 1;

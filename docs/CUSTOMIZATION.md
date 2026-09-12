@@ -48,6 +48,55 @@ Best results come from:
 
 Do not add a decorative background before generation. The console adds its own restrained ambient layer.
 
+## GitHub Analytics
+
+The profile can include dynamically calculated GitHub analytics. These are generated from the GitHub API and cached for 30 minutes.
+
+### Local Generation
+
+Run analytics generation:
+
+```bash
+npm run generate:analytics
+```
+
+This creates `assets/analytics/analytics.json` and `assets/analytics/cache.json`.
+
+Then regenerate the README to include analytics:
+
+```bash
+npm run generate:readme
+```
+
+Or do both in sequence:
+
+```bash
+npm run generate:analytics && npm run generate:readme
+```
+
+### GitHub Actions
+
+The `generate-analytics.yml` workflow automatically updates analytics on a schedule, on push to main when `profile.config.json` changes, or when manually dispatched.
+
+The workflow commits only if the README actually changes.
+
+### Analytics Sections
+
+The generated README includes:
+
+- **Profile Overview** — public repositories, stars, forks, commits, followers, following
+- **All Public Repositories** — complete list with language, stars, forks, and last updated date
+- **Top Language by Repository** — language distribution by repository count
+- **Top Language by Commit Activity** — commit contribution by repository primary language
+- **Most Starred Projects** — top 5 repositories by stars
+- **Recent Activity** — dynamically updated public GitHub events
+
+### Cache Behavior
+
+Analytics are cached in `assets/analytics/cache.json` for 30 minutes. Running `npm run generate:analytics` multiple times within that window reuses cached data.
+
+The cache is never committed and is safe to ignore in Git.
+
 ## Updating Later
 
 Edit `profile.config.json`, then regenerate with the same private source file:

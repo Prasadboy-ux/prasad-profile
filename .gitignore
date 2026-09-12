@@ -13,3 +13,6 @@ portrait-source.*
 *.source.jpeg
 PP.png
 pp.png
+
+# Analytics cache is regenerated automatically
+assets/analytics/cache.json

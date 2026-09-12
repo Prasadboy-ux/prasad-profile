@@ -21,8 +21,8 @@
 <!-- ═══════════════════════════════════ SOCIAL BADGES ═══════════════════════════════════ -->
 
 <p align="center">
-  <a href="https://github.com/Prasadboy-ux"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Prasadboy--ux-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>&nbsp;
-  <a href="https://www.linkedin.com/in/prakash-prasad-550a1a1a8/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Prakash_Prasad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>&nbsp;
+  <a href="https://github.com/Prasadboy-ux"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Prasadboy--ux-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/prakash-prasad-550a1a1a8/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Prakash_Prasad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://wa.me/62876388215"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-%2B62_876--3882--15-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 </p>
 
@@ -52,7 +52,7 @@
 Name:       Prakash Prasad
 Role:       Assistant QA/QC Engineer
 Company:    PT HLN Batam
-Location:   Batam, Indonesia 🇮🇩
+Location:   Batam, Indonesia
 Focus:      Quality Assurance · Process Improvement · Statistical Analysis
 
 Certifications:
@@ -79,18 +79,18 @@ Editors:    VS Code · Git
 <td width="50%">
 
 ### 🏗️ Quality Systems
-Implementing and maintaining **ISO 9001**, **ISO 14001**, **ISO 45001**, and **ISO 19011** compliant quality frameworks.
+Implementing and maintaining ISO 9001, ISO 14001, ISO 45001, and ISO 19011 compliant quality frameworks.
 
-### 🔬 Inspections & QA
-Conducting IQC inspections using **SmartScope** and other precision tools to ensure materials and products meet specifications.
+### 📈 Process Improvement
+Applying SPC, root cause analysis, 8D reports, FMEA, and CAPA to reduce defects and optimize production quality.
 
 </td>
 <td width="50%">
 
-### 📈 Process Improvement
-Applying **SPC**, root cause analysis, **8D reports**, **FMEA**, and **CAPA** to reduce defects and optimize production quality.
+### 🔬 Inspections & QA
+Conducting IQC inspections using SmartScope and other tools to ensure materials and products meet specifications.
 
-### 🛠️ Quality Tools
+### 🏗️ Quality Tools
 Building digital tools and dashboards to streamline QA workflows, track defects, and visualize quality metrics.
 
 </td>
@@ -133,48 +133,48 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 <tr>
 <td width="50%">
 
-<h3 align="center">🔍 IQC Inspection System</h3>
+<h3 align="center">IQC Inspection</h3>
 <p align="center">
   <a href="https://github.com/Prasadboy-ux/IQC-Inspection-System">
     <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
   </a>
 </p>
-<p align="center"><em>Incoming quality control automation — manage inspections, track defects, and generate compliance reports.</em></p>
+<p align="center"><em>A digital system for managing incoming quality inspections, tracking defects, and generating compliance reports.</em></p>
 
 </td>
 <td width="50%">
 
-<h3 align="center">📊 QA Engineering Dashboard</h3>
+<h3 align="center">QA Dashboard</h3>
 <p align="center">
   <a href="https://github.com/Prasadboy-ux/QA-Engineering-Dashboard">
     <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
   </a>
 </p>
-<p align="center"><em>Interactive dashboard for monitoring quality KPIs, defect trends, and process capability metrics in real time.</em></p>
+<p align="center"><em>An interactive dashboard for monitoring quality KPIs, defect trends, and process capability metrics in real time.</em></p>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-<h3 align="center">📉 Rubber Mfg SPC System</h3>
+<h3 align="center">Rubber Mfg SPC</h3>
 <p align="center">
   <a href="https://github.com/Prasadboy-ux/Rubber-Manufacturing-SPC-System">
     <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
   </a>
 </p>
-<p align="center"><em>Specialized SPC system for rubber manufacturing — monitor variability and maintain product consistency.</em></p>
+<p align="center"><em>A specialized SPC system for rubber manufacturing processes to monitor variability and maintain product consistency.</em></p>
 
 </td>
 <td width="50%">
 
-<h3 align="center">🎓 NextGenAcademy</h3>
+<h3 align="center">NextGenAcademy</h3>
 <p align="center">
   <a href="https://github.com/Prasadboy-ux/NextGenAcademy">
     <img src="https://img.shields.io/badge/VIEW_REPO-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
   </a>
 </p>
-<p align="center"><em>Modern learning platform designed to deliver quality education content with an intuitive user experience.</em></p>
+<p align="center"><em>A modern learning platform designed to deliver quality education content with an intuitive user experience.</em></p>
 
 </td>
 </tr>
@@ -182,23 +182,66 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 
 ---
 
-<!-- ═══════════════════════════════════ GITHUB STATS ═══════════════════════════════════ -->
+## 📊 GitHub Analytics
 
-## 📊 &nbsp;GitHub Analytics
+### 📋 Profile Overview
+
+| Metric | Value |
+| --- | --- |
+| 📦 Public Repositories | 5 |
+| ⭐ Total Stars | 1 |
+| 🍴 Total Forks | 0 |
+| 📝 Total Commits | 19 |
+| 👥 Followers | 1 |
+| 👤 Following | 1 |
+
+---
+
+### 📦 All Public Repositories
+
+| Repository | Language | ⭐ Stars | 🍴 Forks | Updated |
+| --- | --- | ---: | ---: | --- |
+| [**image-slider**](https://github.com/Prasadboy-ux/image-slider) | JavaScript | 0 | 0 | Sep 12, 2026 |
+| [**task-owner-dashboard**](https://github.com/Prasadboy-ux/task-owner-dashboard) | JavaScript | 0 | 0 | Sep 12, 2026 |
+| [**Blur-Theme**](https://github.com/Prasadboy-ux/Blur-Theme) | Python | 1 | 0 | Sep 10, 2026 |
+| [**Prasadboy-ux**](https://github.com/Prasadboy-ux/Prasadboy-ux) | JavaScript | 0 | 0 | Sep 9, 2026 |
+| [**rollmaster-cli**](https://github.com/Prasadboy-ux/rollmaster-cli) | Python | 0 | 0 | Aug 30, 2026 |
+
+---
+
+### 💻 Top Language by Repository
+
+> Calculated by counting how many repositories are associated with each primary language.
+
+- `JavaScript   ██████████████ 60%`
+- `Python   █████████ 40%`
+
+---
+
+### 🔥 Top Language by Commit Activity
+
+> Calculated by summing commit counts across repositories and grouping by repository primary language. A repository's primary language is determined by its largest language bytes on GitHub, not by individual commit contents.
+
+- `JavaScript   ██████████████ 73.68%`
+- `Python   █████ 26.32%`
+
+---
+
+### ⭐ Most Starred Projects
+
+`1.` [**Blur-Theme**](https://github.com/Prasadboy-ux/Blur-Theme) — ⭐ 1
+
+---
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Prasadboy-ux&theme=tokyonight" alt="Stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Prasadboy-ux&theme=tokyonight&utcOffset=7" alt="Commits Time" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Prasadboy-ux&theme=tokyonight&utcOffset=7" alt="Commits Time" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Prasadboy-ux&theme=tokyonight" alt="Contribution Graph" />
 </p>
 
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Prasadboy-ux&theme=tokyonight" alt="Top Languages by Repo" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Prasadboy-ux&theme=tokyonight" alt="Top Languages by Commit" />
-</p>
+<!-- AUTO:ANALYTICS:START -->
 
-<p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Prasadboy-ux&theme=tokyonight" alt="Contribution Graph" />
-</p>
+<!-- AUTO:ANALYTICS:END -->
+
 
 ---
 
@@ -208,9 +251,9 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/prasad-profile/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/prasad-profile/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Prasadboy-ux/prasad-profile/output/github-contribution-grid-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/Prasadboy-ux/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadboy-ux/Prasadboy-ux/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Prasadboy-ux/Prasadboy-ux/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </p>
 
@@ -222,7 +265,7 @@ Building digital tools and dashboards to streamline QA workflows, track defects,
 
 <blockquote>
 
-I am focused on building **dependable quality systems** that integrate statistical process control, ISO standards compliance, and structured problem-solving methods. My goal is to ensure every product and process meets defined quality thresholds through **systematic inspection**, **data-driven decisions**, and continuous improvement frameworks such as **CAPA** and **FMEA**.
+I am focused on building dependable quality systems that integrate statistical process control, ISO standards compliance, and structured problem-solving methods. My goal is to ensure every product and process meets defined quality thresholds through systematic inspection, data-driven decisions, and continuous improvement frameworks such as CAPA and FMEA.
 
 </blockquote>
 
